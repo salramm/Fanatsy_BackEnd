@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://dev_fantasy_admin:AtlasOfTheWorld7@cluster0.ektda.mongodb.net/Fantasy?retryWrites=true&w=majority",
+    "jwtSecret": "hvbcbui23bnkj3bidnmojssaind32"
+}
