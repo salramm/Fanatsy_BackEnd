@@ -13,4 +13,4 @@ EXPOSE 5000
 # COPY . /home/app
 # RUN cd /home/app
 
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "start"]
