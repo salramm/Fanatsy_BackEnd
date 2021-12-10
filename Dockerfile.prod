@@ -8,9 +8,4 @@ RUN npm install
 COPY . ./
 EXPOSE 5000
 
-
-# RUN mkdir -p /home/app
-# COPY . /home/app
-# RUN cd /home/app
-
 CMD ["npm", "run", "start"]

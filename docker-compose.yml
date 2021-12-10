@@ -1,11 +1,11 @@
 version: "3"
 services:
   react-app:
-    image: react-app
+    image: react-prod
     build: ../Front_End/client
     stdin_open: true
     ports:
-      - "3000:3000"
+      - "8080:80"
     networks:
       - mern-app
   api-server:
